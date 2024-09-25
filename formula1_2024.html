@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1 - Temporada 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff0000;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #00ff00;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+        }
+
+        .driver-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .driver-info {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .driver-info img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #ccc;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .chart-container {
+            margin: 40px auto;
+            width: 80%;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Fórmula 1 - Temporada 2024</h1>
+</header>
+
+<nav>
+    <a href="#equipos">Equipos</a>
+    <a href="#circuitos">Circuitos</a>
+    <a href="#pilotos">Pilotos</a>
+</nav>
+
+<section id="equipos">
+    <h2>Equipos</h2>
+    <p>Aquí tienes los equipos que compiten en la temporada 2024:</p>
+    <ul>
+        <li>Red Bull Racing</li>
+        <li>Mercedes-AMG Petronas</li>
+        <li>Scuderia Ferrari</li>
+        <li>McLaren F1 Team</li>
+        <li>Aston Martin Cognizant F1 Team</li>
+        <li>Alpine F1 Team</li>
+        <li>Williams Racing</li>
+        <li>Alfa Romeo F1 Team</li>
+        <li>Haas F1 Team</li>
+        <li>Scuderia AlphaTauri</li>
+    </ul>
+</section>
+
+<section id="circuitos">
+    <h2>Circuitos</h2>
+    <p>La temporada 2024 incluye las siguientes pistas:</p>
+    <ul>
+        <li>Gran Premio de Bahréin - Circuito Internacional de Bahréin</li>
+        <li>Gran Premio de Arabia Saudita - Jeddah Street Circuit</li>
+        <li>Gran Premio de Australia - Albert Park Circuit</li>
+        <li>Gran Premio de Emilia-Romaña - Imola</li>
+        <li>Gran Premio de Mónaco - Circuit de Monaco</li>
+        <li>Gran Premio de España - Circuit de Barcelona-Catalunya</li>
+        <li>Gran Premio de Canadá - Circuit Gilles Villeneuve</li>
+        <li>Gran Premio de Austria - Red Bull Ring</li>
+        <li>Gran Premio de Gran Bretaña - Silverstone Circuit</li>
+        <li>Gran Premio de Hungría - Hungaroring</li>
+        <li>Gran Premio de Bélgica - Circuit de Spa-Francorchamps</li>
+        <li>Gran Premio de Países Bajos - Circuit Zandvoort</li>
+        <li>Gran Premio de Italia - Monza</li>
+        <li>Gran Premio de Singapur - Marina Bay Street Circuit</li>
+        <li>Gran Premio de Japón - Suzuka Circuit</li>
+        <li>Gran Premio de Estados Unidos - Circuit of the Americas</li>
+        <li>Gran Premio de México - Autódromo Hermanos Rodríguez</li>
+        <li>Gran Premio de Brasil - Interlagos</li>
+        <li>Gran Premio de Las Vegas - Las Vegas Street Circuit</li>
+        <li>Gran Premio de Abu Dhabi - Yas Marina Circuit</li>
+    </ul>
+</section>
+
+<section id="pilotos">
+    <h2>Pilotos</h2>
+    <p>Información sobre los pilotos que compiten en la temporada 2024:</p>
+
+    <div class="driver-grid">
+        <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/verstappen">
+            <h3>Max Verstappen</h3>
+            <p>Equipo: Red Bull Racing</p>
+            <p>Victorias: 7</p>
+            <p>Podios: 10</p>
+            <p>Puntos: 303</p>
+
+        </div>
+ <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/norris">
+            <h3>Lando Norris</h3>
+            <p>Equipo: McLaren F1 Team</p>
+            <p>Victorias: 2</p>
+            <p>Podios: 10</p>
+            <p>Puntos: 241</p>
+
+        </div>
+   <div class="driver-info">
+            <img src="https://cdn.ferrari.com/cms/network/media/img/resize/664ddbcb38b295002043cc52-ferrari-scuderia-2024-charles-leclerc-stats-image-mob-hp?width=750&height=0">
+            <h3>Charles Leclerc</h3>
+            <p>Equipo: Scuderia Ferrari</p>
+            <p>Victorias: 2</p>
+            <p>Podios: 8</p>
+            <p>Puntos: 217</p>
+        </div>
+
+   <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/piastri">
+            <h3>Oscar Piastri</h3>
+            <p>Equipo: McLaren F1 Team</p>
+            <p>Victorias: 1</p>
+            <p>Podios: 5</p>
+            <p>Puntos: 197</p>
+        </div>
+
+   <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/v1712849109/content/dam/fom-website/drivers/2024Drivers/sainz.png">
+            <h3>Carlos Sainz</h3>
+            <p>Equipo: Scuderia Ferrari</p>
+            <p>Victorias: 1</p>
+            <p>Podios: 5</p>
+            <p>Puntos: 184</p>
+        </div>
+
+
+
+
+        <div class="driver-info">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/mercedes-w14-02-1676455886.jpg">
+            <h3>Lewis Hamilton</h3>
+            <p>Equipo: Mercedes-AMG Petronas</p>
+            <p>Victorias: 4</p>
+            <p>Podios: 12</p>
+            <p>Puntos: 345</p>
+        </div>
+
+            
+        <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/perez" alt="Sergio Peréz">
+            <h3>Sergio Peréz</h3>
+            <p>Equipo:Red Bull Racing</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 4</p>
+            <p>Puntos: 143</p>
+        </div>
+ <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/russell" alt="George Russell">
+            <h3>George Russell</h3>
+            <p>Equipo: Mercedes-AMG Petronas</p>
+            <p>Victorias: 1</p>
+            <p>Podios: 2</p>
+            <p>Puntos: 128</p>
+        </div>
+
+        <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/alonso" alt="Fernando Alonso">
+            <h3>Fernando Alonso</h3>
+            <p>Equipo:Aston Martin Cognizant F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 50</p>
+        </div>
+
+   <div class="driver-info">
+            <img src="https://assets.astonmartinf1.com/public/cms/xAAWM6ruGiaooYVcTxkXm/2c7bb5c9681fc249dbff199882edc324/Z92_6599-Edit_prof.jpg?h=1500&fit=fill" alt="Lance Stroll">
+            <h3>Lance Stroll</h3>
+            <p>Equipo:Aston Martin Cognizant F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 24</p>
+        </div>
+
+ <div class="driver-info">
+    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/hulkenberg" alt="Nico Hulkenberg">
+    <h3>Nico Hulkenberg</h3>
+    <p>Equipo: Haas F1 Team</p>
+    <p>Victorias: 0</p>
+    <p>Podios: 0</p>
+    <p>Puntos: 22</p>
+</div> <div class="driver-info">
+
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/tsunoda" alt="Yuki Tsunoda">
+            <h3>Yuki Tsunoda</h3>
+            <p>Equipo:Racing Bulls Redbull F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 22</p>
+        </div>
+
+<div class="driver-info">
+    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/ricciardo" alt="Daniel Ricciardo">
+    <h3>Daniel Ricciardo</h3>
+    <p>Equipo: Racing Bulls Red Bull F1 Team</p>
+    <p>Victorias: 0</p>
+    <p>Podios: 0</p>
+    <p>Puntos: 12</p>
+</div>
+  <div class="driver-info">
+            <img src="https://assets.astonmartinf1.com/public/cms/xAAWM6ruGiaooYVcTxkXm/2c7bb5c9681fc249dbff199882edc324/Z92_6599-Edit_prof.jpg?h=1500&fit=fillhttps://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/gasly            <h3>Pier Gasley </h3>
+            <p>Equipo:Alpine F1 Team </p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 8</p>
+        </div>
+
+
+ <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/magnussen" alt="Kevin Magnussen">
+            <h3>Kevin Magnussen</h3>
+            <p>Equipo:Hass F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 6</p>
+        </div>
+
+
+<div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/albon" alt="Alexander Albon">
+            <h3>Alexander Albon</h3>
+            <p>Equipo:Wiliams F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 6</p>
+        </div>
+
+ <div class="driver-info">
+
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/ocon" alt="Esteban Ocon">
+            <h3>Esteban Ocon</h3>
+            <p>Equipo:Alpine F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 5</p>
+        </div>
+
+
+ <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/zhou" alt="G.Y Zhou">
+            <h3>G.Y Zhou"</h3>
+            <p>Equipo:Kick sauber F1 team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 0</p>
+        </div>
+
+
+ <div class="driver-info">
+            <img src="https://res.cloudinary.com/prod-f2f3/image/upload/v1676462184/f3/global/drivers/2023/BRYN9899_acee4871-3b14-4d11-aea5-16006ba97f50_ED_25f11b86-c238-4e0e-8bd1-41092fbdeee6.jpg" alt="Franco Colapinto">
+            <h3>Franco Colapinto</h3>
+            <p>Equipo: Wiliams</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 0</p>
+        </div>
+
+
+ <div class="driver-info">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/bottas" alt="Valtteri Bottas">
+            <h3>Valtteri Bottas</h3>
+            <p>Equipo:Kick Sauber F1 Team</p>
+            <p>Victorias: 0</p>
+            <p>Podios: 0</p>
+            <p>Puntos: 0</p>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Max Verstappen', 'Lewis Hamilton', 'Charles Leclerc', 'Lando Norris', 'Fernando Alonso'],
+                datasets: [{
+                    label: 'Puntos',
+                    data: [425, 345, 210, 180, 150],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</section>
+
+<footer>
+    <p>&copy; 2024 Fórmula 1 - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
+a este codigo que te coy a mandar le puedes agregar el codigo que ya generate con la tabla del calendario 2024
+
